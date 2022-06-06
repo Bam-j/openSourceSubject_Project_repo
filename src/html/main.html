@@ -26,6 +26,25 @@
             var selectList = document.getElementById("option");    
             var operator = selectList.options[selectList.selectedIndex].value;
             var res;             
+            if(operator == 'plus'){                
+                res = parseInt(num1)+parseInt(num2);                                
+                document.getElementById("result").value = res;            
+            } 
+            else if(operator=='minus') 
+            {                
+                res = parseInt(num1)-parseInt(num2);                              
+                document.getElementById("result").value = res;            
+            } 
+            else if(operator=='mul') 
+            {                
+                res = parseInt(num1)*parseInt(num2);                         
+                document.getElementById("result").value = res;            
+            } 
+            else if(operator=='div') 
+            {                
+                res = parseInt(num1)/parseInt(num2);                               
+                document.getElementById("result").value = res;             
+            }      
         }    
     </script>
 </body>
