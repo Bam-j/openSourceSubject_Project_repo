@@ -3,6 +3,10 @@
  */
 const getAddition = (operand1, operand2) => {
   let sum = operand1 + operand2;
-
   return sum;
+};
+
+const getMultiplication = (operand1, operand2) => {
+  let mul = operand1 * operand2;
+  return mul;
 };
