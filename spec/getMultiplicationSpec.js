@@ -14,15 +14,15 @@ describe('곱하기 연산에 대한 테스트', () => {
     operand4 = 0.2;
   });
 
-  it('더하기 연산1 - 정수와 정수', () => {
+  it('곱하기 연산1 - 정수와 정수', () => {
     expect(getMultiplication(operand1, operand2)).toEqual(10 * 5);
   });
 
-  it('더하기 연산2 - 정수와 실수', () => {
+  it('곱하기 연산2 - 정수와 실수', () => {
     expect(getMultiplication(operand1, operand3)).toEqual(10 * 1.5);
   });
 
-  it('더하기 연산3 - 실수와 실수', () => {
+  it('곱하기 연산3 - 실수와 실수', () => {
     expect(getMultiplication(operand3, operand4)).toEqual(1.5 * 0.2);
   });
 });
