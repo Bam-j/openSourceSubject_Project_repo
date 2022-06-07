@@ -1,6 +1,6 @@
 /*
  * 이 부분은 main이 되는 index.js입니다.
- * 이 함수에서 DOM 요소를 취득하고, 연산에 대한 함수를 호출합니다.
+ * 이 함수에서 DOM 요소들을 취득하고, 연산에 대한 함수를 호출합니다.
  */
 document.addEventListener('DOMContentLoaded', () => {
   let submitButton = document.getElementById('submit-btn');
