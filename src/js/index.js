@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     switch (operator) {
       case 'plus':
+        getAddition(operand1, operand2);
         break;
       case 'minus':
         break;

@@ -2,8 +2,6 @@
  * 이 테스트를 기반으로 덧셈 함수 모듈을 작성합니다.
  */
 
-import { getAddition_test } from './arithmaticOperationSpec';
-
 describe('더하기 연산에 대한 테스트', () => {
   let operand1;
   let operand2;
@@ -24,14 +22,14 @@ describe('더하기 연산에 대한 테스트', () => {
    * 작성한 함수들은 SpecRunner.html의 include source file에 추가해주시고, 테스트 진행하시면 됩니다.
    */
   it('더하기 연산1 - 정수와 정수', () => {
-    expect(getAddition_test(operand1, operand2)).toEqual(10 + 5);
+    expect(getAddition(operand1, operand2)).toEqual(10 + 5);
   });
 
   it('더하기 연산2 - 정수와 실수', () => {
-    expect(getAddition_test(operand1, operand3)).toEqual(10 + 1.5);
+    expect(getAddition(operand1, operand3)).toEqual(10 + 1.5);
   });
 
   it('더하기 연산3 - 실수와 실수', () => {
-    expect(getAddition_test(operand3, operand4)).toEqual(1.5 + 0.2);
+    expect(getAddition(operand3, operand4)).toEqual(1.5 + 0.2);
   });
 });
