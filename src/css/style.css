@@ -1,0 +1,14 @@
+input{
+    font-size:22px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(233,233,233);
+}
+select{
+    font-size:22px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(233,233,233);
+}
