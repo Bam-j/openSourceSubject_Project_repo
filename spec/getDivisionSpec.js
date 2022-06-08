@@ -25,8 +25,4 @@ describe('나누기 연산에 대한 테스트', () => {
   it('나누기 연산3 - 실수와 실수', () => {
     expect(getDivision(operand3, operand4)).toEqual(1.5 / 0.2);
   });
-
-  it('나누기 연산4 - 0으로 나누기는 실패여야 한다', () => {
-    expect(getDivision(operand1, 0)).toThrowError();
-  });
 });

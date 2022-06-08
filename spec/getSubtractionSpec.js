@@ -23,6 +23,6 @@ describe('빼기 연산에 대한 테스트', () => {
   });
 
   it('빼기 연산3 - 실수와 실수', () => {
-    expect(getSubtraction(operand3, operand3)).toEqual(1.5 - 0.2);
+    expect(getSubtraction(operand3, operand4)).toEqual(1.5 - 0.2);
   });
 });
