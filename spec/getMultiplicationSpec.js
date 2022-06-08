@@ -1,6 +1,8 @@
 /*
  * 이 테스트를 기반으로 곱셈 함수 모듈을 작성합니다.
  */
+import {getMultiplication} from '../src/js/arithmeticOperations.js';
+
 describe('곱하기 연산에 대한 테스트', () => {
   let operand1;
   let operand2;
