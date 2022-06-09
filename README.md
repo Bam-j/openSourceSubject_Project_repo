@@ -25,3 +25,8 @@
 
 ### 사용 기술
 `HTML5`, `CSS3`, `JavaScript`, `Jasmine`(테스트 프레임워크)
+
+### 결과물
+결과물은 `GitHub Pages`를 통해 확인하실 수 있습니다.<br>
+
+**[결과물 링크](https://bam-j.github.io/openSourceSubject_Project_repo/)**
