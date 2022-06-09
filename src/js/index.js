@@ -39,5 +39,5 @@ document.addEventListener('DOMContentLoaded', () => {
         result.value = getDivision(operand1, operand2);
         break;
     }
-  });
-});
+  }, false);
+}, false);
