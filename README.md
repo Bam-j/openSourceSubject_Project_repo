@@ -30,3 +30,6 @@
 결과물은 `GitHub Pages`를 통해 확인하실 수 있습니다.<br>
 
 **[결과물 링크](https://bam-j.github.io/openSourceSubject_Project_repo/)**
+
+프로젝트를 통해 git과 TDD에 대한 이해도를 높이길 바랍니다.
+================================================
